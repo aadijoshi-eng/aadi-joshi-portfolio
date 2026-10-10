@@ -1,0 +1,11 @@
+/node_modules/
+/.next/
+/out/
+/coverage/
+.env*
+.DS_Store
+._*
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+npm-debug.log*
