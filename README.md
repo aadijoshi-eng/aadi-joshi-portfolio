@@ -43,3 +43,6 @@ npm run data
 ```
 
 `npm run data` rebuilds the atlas data from the local research inputs. Python dependencies for the research scripts are listed in `scripts/research/requirements.txt`.
+
+## Note
+This repository contains the consolidated and finalized codebase for my independent research tracking. The data pipelines (Python) and front-end dashboard (Next.js) were developed locally over several months and committed to GitHub as a completed, functional release."
