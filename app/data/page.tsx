@@ -18,9 +18,7 @@ const downloads = [
   ["State and metro/nonmetro benchmarks", publicPath("/downloads/state_group_benchmarks.csv"), "CSV · 30 rows"],
   ["Source manifest", publicPath("/downloads/SOURCE_MANIFEST.csv"), "CSV · URLs, coverage, retrieval records, hashes"],
   ["Full working paper", publicPath("/downloads/working_paper.pdf"), "PDF · 24 pages"],
-  ["Editable working paper", publicPath("/downloads/working_paper_overleaf_import.zip"), "ZIP · LaTeX source and figures"],
   ["North Carolina policy brief", publicPath("/downloads/nc_policy_brief.pdf"), "PDF · 1 page"],
-  ["Presentation outline", publicPath("/downloads/presentation_outline.pdf"), "PDF · 3 pages"],
 ] as const;
 
 export default function DataPage() {

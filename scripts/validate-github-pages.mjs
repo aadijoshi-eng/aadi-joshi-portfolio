@@ -55,7 +55,7 @@ const atlasJson = JSON.parse(await readFile(resolve(out, 'data/atlas.json'), 'ut
 assert.equal(atlasJson.records.length, 1000);
 assert.equal(atlasJson.records.filter((record) => record.startupRate === null).length, 5);
 
-for (const filename of ['working_paper.pdf', 'working_paper_overleaf_import.zip']) {
+for (const filename of ['working_paper.pdf', 'nc_policy_brief.pdf']) {
   const original = await readFile(resolve(root, 'public/downloads', filename));
   const exported = await readFile(resolve(out, 'downloads', filename));
   assert.equal(createHash('sha256').update(exported).digest('hex'), createHash('sha256').update(original).digest('hex'), `${filename} changed during export`);

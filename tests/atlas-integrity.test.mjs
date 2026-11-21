@@ -66,8 +66,6 @@ test("required public downloads are present and nonempty", async () => {
     "SOURCE_MANIFEST.csv",
     "working_paper.pdf",
     "nc_policy_brief.pdf",
-    "presentation_outline.pdf",
-    "working_paper_overleaf_import.zip",
   ];
   for (const file of downloads) {
     const bytes = await readFile(new URL(`../public/downloads/${file}`, import.meta.url));

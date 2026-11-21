@@ -19,12 +19,10 @@ export default function PaperPage() {
         <div>
           <p className="eyebrow">Full research package</p>
           <h2>Read the evidence at the level you need.</h2>
-          <p>The 24-page working paper contains the literature, data construction, fixed-effects design, timing correction, clean-preperiod diagnostic, secondary Poisson result, and limitations. It retains all four research figures and the complete appendix tables. The policy brief and presentation provide shorter entry points.</p>
+          <p>The 24-page working paper contains the literature, data construction, fixed-effects design, timing correction, clean-preperiod diagnostic, secondary Poisson result, and limitations. It retains all four research figures and the complete appendix tables. The policy brief summarizes the findings for North Carolina.</p>
           <div className="paper-downloads">
             <a className="button primary" href={publicPath("/downloads/working_paper.pdf")}>Working paper · PDF</a>
-            <a className="button secondary" href={publicPath("/downloads/working_paper_overleaf_import.zip")}>Editable paper · Overleaf ZIP</a>
             <a className="button secondary" href={publicPath("/downloads/nc_policy_brief.pdf")}>Policy brief · PDF</a>
-            <a className="button secondary" href={publicPath("/downloads/presentation_outline.pdf")}>Presentation · PDF</a>
           </div>
         </div>
       </section>
@@ -40,7 +38,7 @@ export default function PaperPage() {
             <p className="eyebrow light">Researcher</p>
             <h2>Aadi Joshi</h2>
             <p>Aadi Joshi is a North Carolina high school student interested in applied economics, data analysis, banking, and corporate finance. His research examines bank-branch networks and employer-startup activity across all 100 North Carolina counties.</p>
-            <dl><div><dt>Location</dt><dd>North Carolina</dd></div><div><dt>Paper revised</dt><dd>October 4, 2026</dd></div></dl>
+            <dl><div><dt>Location</dt><dd>North Carolina</dd></div><div><dt>Paper revised</dt><dd>November 7, 2026</dd></div></dl>
           </article>
         </div>
       </section>
@@ -52,7 +50,7 @@ export default function PaperPage() {
 
       <section className="shell public-data-note">
         <p><strong>Public-data note:</strong> All analytical inputs are from official federal sources. The project uses aggregate public data and does not contain personal, student-level, borrower-level, or proprietary bank data.</p>
-        <p><strong>Version:</strong> v1.0.1-provisional · data through BDS 2023 and FDIC SOD 2022 · paper and site revised October 4, 2026.</p>
+        <p><strong>Version:</strong> v1.0.1-provisional · data through BDS 2023 and FDIC SOD 2022 · working paper revised November 7, 2026.</p>
       </section>
     </main>
   );
