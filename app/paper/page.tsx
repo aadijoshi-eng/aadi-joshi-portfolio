@@ -37,8 +37,7 @@ export default function PaperPage() {
           <article className="researcher-bio">
             <p className="eyebrow light">Researcher</p>
             <h2>Aadi Joshi</h2>
-            <p>Aadi Joshi is a North Carolina high school student interested in applied economics, data analysis, banking, and corporate finance. His research examines bank-branch networks and employer-startup activity across all 100 North Carolina counties.</p>
-            <dl><div><dt>Location</dt><dd>North Carolina</dd></div><div><dt>Paper revised</dt><dd>November 7, 2026</dd></div></dl>
+            <p>I’m a high school student in North Carolina interested in applied economics, data analysis, banking, and corporate finance. In this paper, I examine how changes in local bank branch networks relate to employer startup activity across all 100 North Carolina counties.</p>
           </article>
         </div>
       </section>
